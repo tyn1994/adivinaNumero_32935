@@ -11,7 +11,7 @@ export const style = StyleSheet.create({
     },
     title: {
         fontSize: 20,
-        fontWeight: "bold",
+        fontFamily: 'Montserrat-Bold',
         color: colors.white
     }
 })

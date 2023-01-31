@@ -10,7 +10,8 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         color: colors.text,
         textAlign: "center",
-        paddingVertical: 20
+        paddingVertical: 20,
+        fontFamily: 'Montserrat-Bold',
     },
     inputContiner: {
         justifyContent: "center",
@@ -21,7 +22,8 @@ export const styles = StyleSheet.create({
         fontSize: 15,
         color: colors.text,
         paddingVertical: 5,
-        textAlign: "center"
+        textAlign: "center",
+        fontFamily: 'Montserrat-Regular',
     },
     input: {
         width: "100%",
@@ -31,11 +33,22 @@ export const styles = StyleSheet.create({
         fontSize: 22,
         paddingVertical: 10,
         textAlign: "center",
+        fontFamily: 'Montserrat-Regular',
     },
     buttonContiner: {
         flexDirection: "row",
         width: "75%",
         justifyContent: "space-around",
         marginTop: 20,
+    },
+    confirmedContainer: {
+        width: "70%",
+        height: 180,
+        justifyContent: "space-around",
+        alignItems: "center",
+        marginVertical: 30
+    },
+    confirmedTitle: {
+        fontSize: 16
     },
 })
